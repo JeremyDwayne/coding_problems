@@ -29,6 +29,10 @@ def main():
   print("Is", unique, "unique?", is_unique(unique))
   print("Is", non_unique, "unique?", is_unique(non_unique))
 
+  # Output
+  # Is qwertyuiopasdfghjklzxcvbnm unique? True
+  # Is qwertyasdfghjklqwerty unique? False
+
 main()
 
 # If I wasn't allowed to use a dict / hash table / data structure I would do a nested loop on the string
