@@ -15,7 +15,6 @@ def is_unique(word):
   lookup_table = dict()
 
   for c in word:
-    num = ord(c)
     if c in lookup_table:
       return False
     else:
